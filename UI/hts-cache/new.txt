@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+15:09:01	10412/10412	---MCZ	403	error ('Forbidden')	text/html	date:Mon,%2005%20Oct%202026%2012:09:01%20GMT	https://harnishdesign.net/demo/html/callum/index.html	./harnishdesign.net/demo/html/callum/index.0.delayed	(from )
+15:09:02	4792/4792	---MCZ	403	error ('Forbidden')	text/html	date:Mon,%2005%20Oct%202026%2012:09:02%20GMT	https://harnishdesign.net/robots.txt		(from )
