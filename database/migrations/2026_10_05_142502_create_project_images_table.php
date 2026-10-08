@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('project_images', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->foreignId('project_id')->constrained()->cascadeOnDelete();
+            $table->foreignUuid('project_id')->constrained()->cascadeOnDelete();
             $table->string('path');
             $table->string('alt')->nullable();
             $table->unsignedInteger('sort_order')->default(0);
