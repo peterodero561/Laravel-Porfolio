@@ -6,6 +6,7 @@
         ['label' => 'Experience', 'route' => 'admin.experience', 'icon' => '▤'],
         ['label' => 'Services',   'route' => 'admin.services',   'icon' => '◇'],
         ['label' => 'Messages',   'route' => 'admin.messages',   'icon' => '✉'],
+        ['label' => 'Account',    'route' => 'admin.account',    'icon' => '◎'],
         ['label' => 'Settings',   'route' => 'admin.settings',   'icon' => '⚙'],
     ];
 @endphp

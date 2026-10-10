@@ -33,6 +33,7 @@ class AuthenticationTest extends TestCase
             '/admin/experience',
             '/admin/services',
             '/admin/messages',
+            '/admin/account',
             '/admin/settings',
         ];
 

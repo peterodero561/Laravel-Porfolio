@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\SitemapController;
+use App\Livewire\Admin\AccountSettings;
 use App\Livewire\Admin\Dashboard;
 use App\Livewire\Admin\Experience\Index as ExperienceIndex;
 use App\Livewire\Admin\Login;
@@ -35,6 +36,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
         Route::get('/', Dashboard::class)->name('dashboard');
+        Route::get('/account', AccountSettings::class)->name('account');
 
         Route::get('/projects', ProjectsIndex::class)->name('projects');
         Route::get('/projects/create', ProjectForm::class)->name('projects.create');
